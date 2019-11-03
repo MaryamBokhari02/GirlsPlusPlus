@@ -1,0 +1,14 @@
+//Add profile API
+http://attend-in.com/GirlsPlusPlus/gppapi.php?function=add_profile&email=mbokhari1&password=123&firstname=Hi&lastname=bye&major=CS&gender=1&classification=1&membertype=1&source=Friend
+
+//Add meeting API
+http://attend-in.com/GirlsPlusPlus/gppapi.php?function=add_meeting&meetingdate=2019-11-24%2007:30pm&title=FirstMeeting&description=blahblah&location=25parkplace&latitude=123&longitude=456
+
+//Add Attendenceofmeeting API
+http://attend-in.com/GirlsPlusPlus/gppapi.php?function=attend_meeting&profile=4&meeting=1&latitude=45&longitude=3
+
+//Update Feedback
+http://attend-in.com/GirlsPlusPlus/gppapi.php?function=update_feedback&profile=4&meeting=1&feedback=Hellohowareyou
+
+//GetAttendenceByMeeting 
+http://attend-in.com/GirlsPlusPlus/gppapi.php?function=view_attendance_by_meeting&meeting=1
